@@ -19,4 +19,4 @@ jobs:
         pip install isort
     - name: Analysing the code with isort
       run: |
-        python -m isort --check
+        python -m isort ./fun/homework.py --check
