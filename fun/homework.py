@@ -21,6 +21,7 @@ def find_least_number(incoming_list):
     Find the smallest/least number in the list.
     """
     if incoming_list is None or len(incoming_list) == 0:
+        return 0
     current_smallest = incoming_list[0]
     for num in incoming_list:
         if num < current_smallest:
