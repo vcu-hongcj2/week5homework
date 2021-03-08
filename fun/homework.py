@@ -6,7 +6,7 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    if incoming_list is None or len(incoming_list) = 0:
+    if incoming_list is None or len(incoming_list) == 0:
         return 0
     current_largest = incoming_list[0]
     for num in incoming_list:
@@ -20,7 +20,7 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    if incoming_list is None or len(incoming_list) = 0:
+    if incoming_list is None or len(incoming_list) == 0:
     current_smallest = incoming_list[0]
     for num in incoming_list:
         if num < current_smallest:
