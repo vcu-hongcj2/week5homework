@@ -53,8 +53,8 @@ def longest_value_key(incoming_dict):
     longest_value = ''
     for key, value in incoming_dict.items():
         if len(value) > current_longest_value:
-                current_longest_value = len(value)
-                longest_value = value 
+            current_longest_value = len(value)
+            longest_value = value 
     for key, value in incoming_dict.items():
         if value == longest_value:
             return key
