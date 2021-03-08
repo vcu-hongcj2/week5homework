@@ -6,7 +6,7 @@ def find_greatest_number(incoming_list):
         if num > current_largest:
             current_largest = num
     return current_largest
-    
+
 def find_least_number(incoming_list):
     if incoming_list is None or len(incoming_list) == 0:
         return 0
